@@ -18,8 +18,9 @@ function Header(){
 
 function Menu(){
   return(
-    <main>
+    <div>
       <h2>Our Menu</h2>
+      <main>
       <div className="menu-item">
         <img src="photo/how-to-make-cappuccino-005.jpg" alt="Cappuccino" width={200} height={150}></img>
         <h3>Cuppuccino</h3>
@@ -74,7 +75,8 @@ function Menu(){
         <p>price:7$</p>
         <button>Order Now</button>
       </div>
-    </main>
+      </main>
+    </div>
   );
 }
 
@@ -100,6 +102,7 @@ function Contact(){
       <input type="text" placeholder="Please Write About......" />
       <input type="tel" placeholder="Your Phone Number" />
       <input type="email" placeholder="Your Email" />
+      <button>Submit</button>
     </div>
   );
 }
