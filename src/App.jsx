@@ -115,8 +115,6 @@ export default function Cafe(){
     <div>
       <Header />
       <Menu />
-      <About />
-      <Contact />
       <Footer />
     </div>
   );
